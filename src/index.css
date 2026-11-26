@@ -168,3 +168,16 @@ a { color: var(--accent-dark); }
   .user-email { display: none; }
   .add-form { flex-direction: column; }
 }
+
+/* v2 */
+.progress { height: 8px; background: var(--border); border-radius: 8px; overflow: hidden; margin-top: 16px; }
+.progress span { display: block; height: 100%; background: var(--accent); transition: width .25s; }
+.muted-line, .guest-note, .guest-cta { color: var(--muted); font-size: .85rem; margin: 6px 0; }
+.guest-cta { text-align: center; margin-top: 16px; }
+.search { margin: 10px 0; width: 100%; }
+.edit-input { flex: 1; padding: 6px 10px; border: 1px solid var(--accent); border-radius: 8px; font: inherit; background: var(--card); color: var(--text); }
+.task-item { gap: 8px; }
+.delete-btn { display: inline-flex; align-items: center; justify-content: center; }
+.link-btn:disabled { opacity: .4; cursor: default; }
+.list-toolbar { flex-wrap: wrap; gap: 8px; }
+.brand-mark { display: inline-grid; place-items: center; }

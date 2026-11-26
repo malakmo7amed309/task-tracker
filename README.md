@@ -10,6 +10,9 @@ Level Security.
 
 ## Features
 
+- Guest mode: try every control without an account (tasks saved in localStorage)
+- Edit task titles inline, search tasks, clear completed, progress bar
+
 - Email + password authentication (sign up, sign in, sign out) with Supabase
   Auth; email confirmation is disabled so demo accounts work instantly
 - Add, complete and delete tasks, synced to a Postgres database
